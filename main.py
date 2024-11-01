@@ -21,7 +21,7 @@ def box2():
     backwards(800)
     turnleft(660)
     goaftertrack(200)
-    turnleft(330)
+    turnleft(330
     goaftertrack(200)
     stop()
     up()
@@ -41,9 +41,9 @@ def on_button_pressed_a():
     box1()
     box2()
     stop()
-input.on_button_pressed(Button.A, on_button_pressed_a)
+    input.on_button_pressed(Button.A, on_button_pressed_a)
 
-def goaftertrack(time3: number):
+def goatertrack(time3: number):
     global status
     status = 0
     moveForward(1)
@@ -58,10 +58,10 @@ def goaftertrack(time3: number):
             status = 1
     moveForward(time3)
 def down2():
-    iBIT.servo(ibitServo.SV2, 90)
+    iBIT.servo(ibitSerbo.SV2, 90)
     basic.pause(300)
 def Grip():
-    iBIT.servo(ibitServo.SV1, 60)
+    iBIT.servo(ibitSerbo.SV1, 60)
     basic.pause(300)
 def put():
     iBIT.servo(ibitServo.SV1, 140)
@@ -94,7 +94,7 @@ def box1():
     turnleft(330)
     goaftertrack(200)
     goaftertrack(200)
-    turnleft(330)
+    turnleft(330
     down()
     moveForward(500)
     stop()
@@ -112,4 +112,4 @@ def turnleft(time5: number):
     stop()
     iBIT.spin(ibitSpin.LEFT, 50)
     basic.pause(time5)
-    stop()
+    stop()-
